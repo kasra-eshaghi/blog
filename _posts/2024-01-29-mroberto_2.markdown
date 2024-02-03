@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "mROBerTO 2.0: A Millirobot for Swarm Studies"
+title: "mroberto_2"
 date: 2024-01-29
 classes: wide
-permalink: /hardware/mroberto_2/
+categories: "_posts"
 ---
 
 # Introduction

@@ -1,7 +1,6 @@
 ---
 layout: single
-title: "HEY! Hardware here!"
-permalink: /hardware/
+title: "Hey! Hardware here!"
 ---
 
 A good engineer knows hardware better than software. That's because hardware can work without software, but software is nothing without hardware! 
@@ -9,7 +8,7 @@ A good engineer knows hardware better than software. That's because hardware can
 Below are some of the fun hardware projects I've worked on in the past. Though, I admit, none of them would work without software. 
 <hr>
 <!-- mROBerTO 2.0-->
-<a href="/hardware/mroberto_2">
+<a href="/mroberto_2/">
 (1) mROBerTO 2.0: A Millirobot for Swarm Studies
 </a>
 <p>
