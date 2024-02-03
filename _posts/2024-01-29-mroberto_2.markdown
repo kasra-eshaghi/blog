@@ -12,7 +12,7 @@ Swarm robotic systems typically consist of simple and small-scale robots that co
 The mROBerTO (milli-ROBot-TOronto) 2.0 millirobot that was developed, Figure 1, sought to improve the already existing <a href="https://ieeexplore.ieee.org/document/7759331">mROBerTO 1.0</a> in terms of its modularity and locomotive capabilities. The mROBerTO 2.0 has a footprint of 22x20 mm, and comprises four modules: (1) the processing and communication module (mainboard), (2) the locomotion module, (3) the swarm sensing module, and (4) the proximity sensing module. It costs approximately $140 USD in components and boards. In designing this robot, I was responbile for schematic design, PCB design, assembly, coding, and testing. The modules of this robot are further detailed below, followed by videos of some of the experiments completed with this robot.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-	<img src="/assets/images/mroberto_2/figure_1.png" alt="Image 1" style="width: 100%; align: middle;" >
+	<img src={{ "/assets/images/mroberto_2/figure_1.png" | prepend:site.baseurl }} alt="Image 1" style="width: 100%; align: middle;" >
 </div>
 <p style="text-align: center;">Figure 1: mROBerTO 2.0 and its modules.</p>
 
