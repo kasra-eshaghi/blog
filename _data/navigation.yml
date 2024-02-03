@@ -1,7 +1,7 @@
 main:
   - title: "Hardware"
-    url: /_pages/hardware/
+    url: /hardware/
   - title: "Software"
-    url: /_pages/software/
+    url: /software/
   - title: "About"
-    url: /_pages/about/
+    url: /about/

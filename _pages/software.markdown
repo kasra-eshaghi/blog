@@ -1,5 +1,7 @@
 ---
+layout: single
 title: "HEY! Software here!"
+permalink: /software/
 ---
 
 <!-- styles -->

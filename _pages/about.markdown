@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Het! Let's connect!"
+permalink: /about/
 ---
 
 The engineer in me loves to solve problems, whatever they are. Mechanical engineering design, mechatronics, robot autonomy, machine learning, you name it, and I'll solve it. 
