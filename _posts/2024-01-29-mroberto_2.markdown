@@ -3,7 +3,6 @@ layout: single
 title: "mroberto_2"
 date: 2024-01-29
 classes: wide
-categories: "_posts"
 ---
 
 # Introduction

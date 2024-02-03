@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Hey! Hardware here!"
+permalink: /hardware/
 ---
 
 A good engineer knows hardware better than software. That's because hardware can work without software, but software is nothing without hardware! 
