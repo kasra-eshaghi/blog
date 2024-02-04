@@ -1,6 +1,6 @@
 ---
 title: "Slip-Angle Sensor for the University of Toronto Formula Racing Team"
-excerpt: "A vehicle's slip-angle plays an important role in the perfomance of its dynamics. In this project, I worked with a team of engineers on the development of a slip-angle sensor for the University of Toronto Formula Racing Team."
+excerpt: "A vehicle's slip-angle plays an important role in the performance of its dynamics. In this project, I worked with a team of engineers on the development of a slip-angle sensor for the University of Toronto Formula Racing Team."
 ---
 <style>
 p {
@@ -55,19 +55,19 @@ An optical processing solution was adopted for measuring the tire slip angle. Th
 The development of an optical processing solution requires the selection of a camera and lens, a source of illumination, electrical hardware, and necessary packing. These are further detailed below.
 
 ## Camera and Lens
-To sucessfully deliver a working prototype within the given budget and schedule, an optical mouse sensor was repurposed as the camera. Such sensor are typically integrated into a single module that also includes a processing unit and feature tracking capabilities. 
+To successfully deliver a working prototype within the given budget and schedule, an optical mouse sensor was repurposed as the camera. Such sensor are typically integrated into a single module that also includes a processing unit and feature tracking capabilities. 
 
-However, a computer mouse cannot be directly implemented onto UT18 due to inadequate maximum working distance and speed. The working distance of a mouse, defined as the distance between the optical sensor and the working surface, ranges between 2mm - 3mm. Rigidly attaching a mouse to UT18 at this height may be detrimental as the vehicle is susceptible to uncontrolled pitch, yaw and roll movements which creates contact between the ground and the sensor. Furthermore, the sensor’s frame rate restricts the maximum working speed of the sensor (between 5 Km/h to 23 Km/h). Exceeding this speed hinders the sensor’s ability to deduce movements as the the overlap area of the subsequently taken images is diminished.
+However, a computer mouse cannot be directly implemented onto UT18 due to inadequate maximum working distance and speed. The working distance of a mouse, defined as the distance between the optical sensor and the working surface, ranges between 2mm - 3mm. Rigidly attaching a mouse to UT18 at this height may be detrimental as the vehicle is susceptible to uncontrolled pitch, yaw and roll movements which creates contact between the ground and the sensor. Furthermore, the sensor’s frame rate restricts the maximum working speed of the sensor (between 5 Km/h to 23 Km/h). Exceeding this speed hinders the sensor’s ability to deduce movements as the overlap area of the subsequently taken images is diminished.
 
 To overcome these difficulties, the proposed solution places the optical mouse sensor further away from the ground and modifies the lens to focus the image at a higher height. Furthermore, it captures a larger surface area of the ground; thus enabling the mouse to be operable at higher speeds.
 
 ## Illumination
-Optical mouse sensors are typically strictly sensitive to wavelengths corrrespong to red light.As such, two high power Red Star LEDs are chosen to illuminate the working surface. Star type high power LEDs are advantages with respect to more common ordinary LEDs as they allow for a wide range of illumination intensity control, reduce packaging size and allow for coupling with commercially available lenses used to focus the light on the desired area. Each LED is equipped with a total internal reflection (TIR) lens, allowing for the light rays to focus and illuminate the surface seen by the sensor.
+Optical mouse sensors are typically strictly sensitive to wavelengths corresponding to red light. As such, two high power Red Star LEDs are chosen to illuminate the working surface. Star type high power LEDs are advantages with respect to more common ordinary LEDs as they allow for a wide range of illumination intensity control, reduce packaging size and allow for coupling with commercially available lenses used to focus the light on the desired area. Each LED is equipped with a total internal reflection (TIR) lens, allowing for the light rays to focus and illuminate the surface seen by the sensor.
 
 One may note that due to the reduction of LED forward voltage with an increase in LED junction temperature an LED driver must be used to control the illumination intensity and regulate the current consumption of the LED.
 
 ## Electrical Hardware
-The block diagram of the electrical system of this design is illustrated in Figure 4 below. A central microprocessor (Raspberry Pi) is used to control the LED driver, communicate with the optical mouse sensor, and send slip angle data to the vehicle’s DAQ. In addition to the the LED driver explained above and the associated PWM controlled adjustment pin, two voltage regulators are necessary for supplying power to the system.
+The block diagram of the electrical system of this design is illustrated in Figure 4 below. A central microprocessor (Raspberry Pi) is used to control the LED driver, communicate with the optical mouse sensor, and send slip angle data to the vehicle’s DAQ. In addition to the LED driver explained above and the associated PWM controlled adjustment pin, two voltage regulators are necessary for supplying power to the system.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
 <img src="{{ site.baseurl }}/assets/images/slip_angle_sensor/circuit.png" alt="Image 1" style="width: 100%; align: middle;" >
@@ -86,7 +86,7 @@ The sensor housing is responsible for packaging all electrical and mechanical co
 
 
 ### Integration with UT18
-In order to directly obtain slip angle from the tire, the sensor assembly must be rigidly mounted to a part of the vehicle body which steers with the wheel. The optimal condition for integration of the system on the vehicle would also minimize vibrations. As such, the sensor is mounted to the non-rotating part of the spindle using an aluminum housing. This section of the vehicle is an unsprung mass which aids in reducing vibrations to the system. 
+In order to directly obtain slip angle from the tire, the sensor assembly must be rigidly mounted to a part of the vehicle body which steers with the wheel. The optimal condition for integration of the system on the vehicle would also minimize vibrations. As such, the sensor is mounted to the non-rotating part of the spindle using an aluminum housing. This section of the vehicle is an un-sprung mass which aids in reducing vibrations to the system. 
 
 The mounting assembly and its integration with UT18 is illustrated in Figure 6. It is composed of metal tubes and laser cut sheets, assembled through welding and machine screws. 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">

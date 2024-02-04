@@ -4,20 +4,6 @@ title: "HEY! Software here!"
 permalink: /software/
 ---
 
-<!-- styles -->
-<!--
-/* Styling for the anchor element */
-
-p {
-  padding: 0;
-  margin: 10;
-}
-
-  font-weight: bold;
-  font-size: 30px;
--->
-
-
 The software projects below were mostly completed during my PhD. Anything related to swarms is from the research I completed at the <a href="https://cimlab.mie.utoronto.ca/" target="_blank">Computer Integrated Manufacturing Lab</a> and the <a href="http://asblab.mie.utoronto.ca/" target="_blank">Autonomous Systems and Biomechatronics Lab</a>, both at the University of Toronto. 
 
 {% for project in site.software %}

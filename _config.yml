@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Kasra Eshaghi"
-subtitle: "The man, the myth, the legend"
+title: "Kasra Eshaghi, PhD"
+subtitle: "Engineer, Roboticist, Adventurer"
 repository: kasra-eshaghi/blog
 baseurl: /blog
 email:
@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 twitter_username: username
 github_username: username
-minimal_mistakes_skin: default
+minimal_mistakes_skin: dirt
 search: true
 
 # Build settings
@@ -50,7 +50,7 @@ plugins:
 
 author:
   # name   : ""
-  avatar : "/assets/images/headers/self_1.jpg"
+  avatar : "/assets/images/headers/self_2.png"
   # bio    : "Mechanical engineer, roboticists, adventurer!"
   links:
     - label: "Email"

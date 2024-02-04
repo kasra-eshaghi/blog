@@ -13,7 +13,7 @@ As Roboticists, we are often faced with the "dilemma of optimization": Should I 
 
 I was faced with this problem when developing a constrained swarm motion planning methodology, as explained <a href="{{ base.siteurl }}/software/constrained-motion-planning/">here</a>. In summary, the methodology sought to optimize the motion of the swarm for a multi-task mission through an optimization process that concurrently varied five different decision variables to find their optimal combination. A competing sub-optimal solution was also found. This sub-optimal solution was computationally less intensive than the developed optimal solution. Furthermore, on some problem instances, it even performed nearly as well. I was, thus, compelled to address the “dilemma of optimization”.
 
-To address this problem, I developed and incorporated a decision-making mechanism into the motion planning framework, Figure 1. This mechanism would, first, find the sub-optimal solution for a problem instance at hand. Then, it would use a pre-implementation estimator, as described below, to estimate the improvement in motion performance that can be achieved through the developed optimal planning methodology. Based on this estimate and the available computational resources (quantified through a user-defined threshold), a user could decide if the improvement im performance that the developed optimal planning methodology achieves justifies its additional computational requirements. 
+To address this problem, I developed and incorporated a decision-making mechanism into the motion planning framework, Figure 1. This mechanism would, first, find the sub-optimal solution for a problem instance at hand. Then, it would use a pre-implementation estimator, as described below, to estimate the improvement in motion performance that can be achieved through the developed optimal planning methodology. Based on this estimate and the available computational resources (quantified through a user-defined threshold), a user could decide if the improvement in performance that the developed optimal planning methodology achieves justifies its additional computational requirements. 
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
 <img src="{{ site.baseurl }}/assets/images/files_improvement_prediction/mechanism.png" alt="Image 1" style="width: 100%; align: middle;" >
@@ -38,7 +38,7 @@ The data for this model was generated through a simulation based approach, where
 
 The developed pre-implementation estimator was able to estimate the improvement in motion performance with an error of approximately 3% of the true value – allowing the user to make well-informed decision on the optimization methodology adopted.
 
-# Reference
+# Publication
 This work was published in:
 <p style="padding-left: 40px;"> 
 	K. Eshaghi, G. Nejat, and B. Benhabib, “<i>A concurrent mission-planning methodology for robotic swarms using collaborative motion-control strategies</i>,” J. Int. Rob. Syst., vol. 108, no. 2, pp. 1-26, Apr. 2023.
