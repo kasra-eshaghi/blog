@@ -1,5 +1,5 @@
 ---
-title: "Hey! Hardware here!"
+title: "HEY! Hardware here!"
 permalink: /hardware/
 ---
 <style>

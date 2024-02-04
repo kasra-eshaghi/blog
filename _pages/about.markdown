@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Het! Let's connect!"
+title: "HEY! Let's connect!"
 permalink: /about/
 ---
 

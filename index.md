@@ -2,7 +2,7 @@
 layout: single
 classes: wide
 author_profile: true
-title: "Hey! Welcome!"
+title: "HEY! Welcome!"
 header:
   image: /assets/images/headers/test_header.png
   image_description: "A description of the image"
