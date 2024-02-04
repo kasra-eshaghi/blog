@@ -11,6 +11,10 @@ title: "Rating products on Amazon"
 	  padding: 8px; /* Optional: Padding for cells */
 	  text-align: left; /* Optional: Align text within cells */
 	}
+	
+	p {
+	  text-align: justify;
+	}
 </style>
 # Introduction
 Recommendation systems are tools that filter the information available on a website to match a user’s characteristics. They can be used by companies such as Amazon, Netflix, and Twitter, to recommend users products to purchase, movies to watch, and advertisements to see, respectively.  These tools typically utilize the user’s personal information, past interactions with their products, and friend groups to provide effective recommendations. 
@@ -61,27 +65,27 @@ The dependence of product rating on product review time was evaluated by analyzi
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
   <div style="flex: 0 1 calc(33% - 10px); margin-bottom: 20px; text-align: center;">
-    <img src="/assets/files_sw/pop.png" alt="Image 1" style="width: 100%;">
+    <img src="{{ site.baseurl }}/assets/images/amazon_recommendation/pop.png" alt="Image 1" style="width: 100%;">
     <p style="text-align: center;">(a)</p>
   </div>
   
   <div style="flex: 0 1 calc(33% - 10px); margin-bottom: 20px; text-align: center;">
-    <img src="/assets/files_sw/Jazz.png" alt="Image 2" style="width: 100%;">
+    <img src="{{ site.baseurl }}/assets/images/amazon_recommendation/Jazz.png" alt="Image 2" style="width: 100%;">
     <p style="text-align: center;">(b)</p>
   </div>
 
   <div style="flex: 0 1 calc(33% - 10px); margin-bottom: 20px; text-align: center;">
-    <img src="/assets/files_sw/dance_electron.png" alt="Image 3" style="width: 100%;">
+    <img src="{{ site.baseurl }}/assets/images/amazon_recommendation/dance_electron.png" alt="Image 3" style="width: 100%;">
     <p style="text-align: center;">(c)</p>
   </div>
   
   <div style="flex: 0 1 calc(33% - 10px); margin-bottom: 20px; text-align: center;">
-    <img src="/assets/files_sw/classical.png" alt="Image 3" style="width: 100%;">
+    <img src="{{ site.baseurl }}/assets/images/amazon_recommendation/classical.png" alt="Image 3" style="width: 100%;">
     <p style="text-align: center;">(d)</p>
   </div>
   
   <div style="flex: 0 1 calc(33% - 10px); margin-bottom: 20px; text-align: center;">
-    <img src="/assets/files_sw/alt_rock.png" alt="Image 3" style="width: 100%;">
+    <img src="{{ site.baseurl }}/assets/images/amazon_recommendation/alt_rock.png" alt="Image 3" style="width: 100%;">
     <p style="text-align: center;">(e)</p>
   </div>
 </div>
@@ -103,12 +107,12 @@ The distribution of the number of words in the review text and product summary a
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
   <div style="flex: 0 1 calc(50% - 10px); margin-bottom: 20px; text-align: center;">
-    <img src="/assets/files_sw/review_length.png" alt="Image 1" style="width: 100%;">
+    <img src="{{ site.baseurl }}/assets/images/amazon_recommendation/review_length.png" alt="Image 1" style="width: 100%;">
     <p style="text-align: center;">(a)</p>
   </div>
   
   <div style="flex: 0 1 calc(50% - 10px); margin-bottom: 20px; text-align: center;">
-    <img src="/assets/files_sw/summary_length.png" alt="Image 2" style="width: 100%;">
+    <img src="{{ site.baseurl }}/assets/images/amazon_recommendation/summary_length.png" alt="Image 2" style="width: 100%;">
     <p style="text-align: center;">(b)</p>
   </div>
 </div>
@@ -118,12 +122,12 @@ The top 30 frequent unigrams of the review and summary text are shown in Figure 
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
   <div style="flex: 0 1 calc(50% - 10px); margin-bottom: 20px; text-align: center;">
-    <img src="/assets/files_sw/review_word_dist.png" alt="Image 1" style="width: 100%;">
+    <img src="{{ site.baseurl }}/assets/images/amazon_recommendation/review_word_dist.png" alt="Image 1" style="width: 100%;">
     <p style="text-align: center;">(a)</p>
   </div>
   
   <div style="flex: 0 1 calc(50% - 10px); margin-bottom: 20px; text-align: center;">
-    <img src="/assets/files_sw/summary_word_dist_unigram.png" alt="Image 2" style="width: 100%;">
+    <img src="{{ site.baseurl }}/assets/images/amazon_recommendation/summary_word_dist_unigram.png" alt="Image 2" style="width: 100%;">
     <p style="text-align: center;">(b)</p>
   </div>
 </div>
@@ -134,7 +138,7 @@ The developed model is shown in Figure 4 below.  In this model, the summary and 
 
 The output of the LSTM layer is, then concatenated with one-hot encoded product categories and normalized review times. These are fed into two successive dense layers to estimate the product ratings.
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-<img src="/assets/files_sw/amazon_comp_model.png" alt="Image 1" style="width: 50%; align: middle;" >
+<img src="{{ site.baseurl }}/assets/images/amazon_recommendation/amazon_comp_model.png" alt="Image 1" style="width: 50%; align: middle;" >
 </div>
 <p style="text-align: center;">Figure 4: Product rating model.</p>
 

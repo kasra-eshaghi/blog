@@ -1,8 +1,13 @@
 ---
-layout: single
 title: "Hey! Hardware here!"
 permalink: /hardware/
 ---
+<style>
+p {
+  text-align: justify;
+}
+</style>
+
 
 A good engineer knows hardware better than software. That's because hardware can work without software, but software is nothing without hardware! 
 
