@@ -30,7 +30,7 @@ search: true
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
-permalink: none #/:categories/:title/
+permalink: "/:title.html" #/:categories/:title/
 paginate: 2 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -107,7 +107,22 @@ defaults:
       type: pages
     values:
       layout: single
+      classes: wide
       author_profile: true
+  # collections
+  - scope:
+      path: "_hardware"
+      type: hardware
+    values:
+      layout: single
+      classes: wide
+  - scope:
+      path: "_software"
+      type: software
+    values:
+      layout: single
+      classes: wide
+            
 
 category_archive:
   type: liquid
@@ -115,3 +130,13 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+
+collections:
+    hardware:
+        output: true
+        permalink: /:collection/:name
+    
+    software:
+        output: true
+        permalink: /:collection/:name
