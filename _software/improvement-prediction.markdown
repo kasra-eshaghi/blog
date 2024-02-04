@@ -1,5 +1,6 @@
 ---
 title: "Improvement Prediction"
+excerpt: "An approach to addressing the dilemma of optimization"
 ---
 <style>
 p {
@@ -15,7 +16,7 @@ I was faced with this problem when developing a constrained swarm motion plannin
 To address this problem, I developed and incorporated a decision-making mechanism into the motion planning framework, Figure 1. This mechanism would, first, find the sub-optimal solution for a problem instance at hand. Then, it would use a pre-implementation estimator, as described below, to estimate the improvement in motion performance that can be achieved through the developed optimal planning methodology. Based on this estimate and the available computational resources (quantified through a user-defined threshold), a user could decide if the improvement im performance that the developed optimal planning methodology achieves justifies its additional computational requirements. 
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-<img src="{{ site.baseurl }}/assets/images/files_improvement_prediction/mechanism.png" alt="Image 1" style="width: 75%; align: middle;" >
+<img src="{{ site.baseurl }}/assets/images/files_improvement_prediction/mechanism.png" alt="Image 1" style="width: 100%; align: middle;" >
 </div>
 <p style="text-align: center;">Figure 1: Decision making mechanism.</p>
 
@@ -29,7 +30,7 @@ The inputs to the model were selected based on an ablation study, where inputs w
 The inputs were concatenated and passed through a single fully connected layer with two thousand neurons, Figure 2.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-<img src="{{ site.baseurl }}/assets/images/files_improvement_prediction/mlp.png" alt="Image 1" style="width: 75%; align: middle;" >
+<img src="{{ site.baseurl }}/assets/images/files_improvement_prediction/mlp.png" alt="Image 1" style="width: 100%; align: middle;" >
 </div>
 <p style="text-align: center;">Figure 2: MLP.</p>
 ## Data Collection and Training

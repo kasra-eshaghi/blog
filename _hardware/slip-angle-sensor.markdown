@@ -1,5 +1,6 @@
 ---
-title: "Design of a Slip-Angle Sensor for the University of Toronto Formula Racing Team"
+title: "Slip-Angle Sensor for the University of Toronto Formula Racing Team"
+excerpt: "A vehicle's slip-angle plays an important role in the perfomance of its dynamics. In this project, I worked with a team of engineers on the development of a slip-angle sensor for the University of Toronto Formula Racing Team."
 ---
 <style>
 p {
@@ -13,7 +14,7 @@ As the only point of contact between a vehicle and the ground, tires play a vita
 The tire slip angle represents the angular difference between where the tire is headed and where it is actually going. While the heading of the tire may be controlled through the vehicle’s steering, the vehicle may not accurately follow due to the frictional resistance produced by the contact between the road and the tire.  Namely, when the steering wheel is turned, the contact patch between the tire with the road resists the turning moment due to elastic friction, and results in a lateral deflection of the tire in the contact patch region. The elastic tire acts as a spring and generates a force distribution proportional to the amount of contact patch deflection. The sum of these forces results in the cornering force. This phenomenon is illustrated through Figure 1.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-<img src="{{ site.baseurl }}/assets/images/slip_angle_sensor/tire_forces_and_moments.png" alt="Image 1" style="width: 50%; align: middle;" >
+<img src="{{ site.baseurl }}/assets/images/slip_angle_sensor/tire_forces_and_moments.png" alt="Image 1" style="width: 100%; align: middle;" >
 </div>
 <p style="text-align: center;">Figure 1: Tire deformation, forces, and moments.</p>
 
@@ -47,7 +48,7 @@ The objectives, constraints, and service environment of the design are detailed 
 # Detailed Design 
 An optical processing solution was adopted for measuring the tire slip angle. Through this solution, a face-down camera is attached to the vehicle, and images are continuously captured of the operating surface, Figure 3. The slip-angle can be measured by comparing the relative position of features on subsequent images. Other solutions, such as dual-antenna GPS and laser doppler velocimeter were also considered but were deemed infeasible due to operation and cost constraints.
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-<img src="{{ site.baseurl }}/assets/images/slip_angle_sensor/solution_overview.png" alt="Image 1" style="width: 50%; align: middle;" >
+<img src="{{ site.baseurl }}/assets/images/slip_angle_sensor/solution_overview.png" alt="Image 1" style="width: 100%; align: middle;" >
 </div>
 <p style="text-align: center;">Figure 3: Optical processing solution overview.</p>
 
@@ -69,7 +70,7 @@ One may note that due to the reduction of LED forward voltage with an increase i
 The block diagram of the electrical system of this design is illustrated in Figure 4 below. A central microprocessor (Raspberry Pi) is used to control the LED driver, communicate with the optical mouse sensor, and send slip angle data to the vehicle’s DAQ. In addition to the the LED driver explained above and the associated PWM controlled adjustment pin, two voltage regulators are necessary for supplying power to the system.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-<img src="{{ site.baseurl }}/assets/images/slip_angle_sensor/circuit.png" alt="Image 1" style="width: 50%; align: middle;" >
+<img src="{{ site.baseurl }}/assets/images/slip_angle_sensor/circuit.png" alt="Image 1" style="width: 100%; align: middle;" >
 </div>
 <p style="text-align: center;">Figure 4: Circuit diagram.</p>
 ## Packaging
@@ -79,7 +80,7 @@ attachment to the vehicle.
 ### Sensor Housing
 The sensor housing is responsible for packaging all electrical and mechanical components, and allowing for integration into UT18. The developed sensor housing is shown in Figure 5 below. The housing is manufactured through 3D printing. It also includes air passage and heat sinks to counter the heat produced by the LEDs and the service environment.
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-<img src="{{ site.baseurl }}/assets/images/slip_angle_sensor/sensor_housing.png" alt="Image 1" style="width: 50%; align: middle;" >
+<img src="{{ site.baseurl }}/assets/images/slip_angle_sensor/sensor_housing.png" alt="Image 1" style="width: 100%; align: middle;" >
 </div>
 <p style="text-align: center;">Figure 5: Sensor housing.</p>
 
@@ -89,7 +90,7 @@ In order to directly obtain slip angle from the tire, the sensor assembly must b
 
 The mounting assembly and its integration with UT18 is illustrated in Figure 6. It is composed of metal tubes and laser cut sheets, assembled through welding and machine screws. 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-<img src="{{ site.baseurl }}/assets/images/slip_angle_sensor/mounting.png" alt="Image 1" style="width: 50%; align: middle;" >
+<img src="{{ site.baseurl }}/assets/images/slip_angle_sensor/mounting.png" alt="Image 1" style="width: 100%; align: middle;" >
 </div>
 <p style="text-align: center;">Figure 6: Integration with UT18.</p>
 
@@ -110,7 +111,7 @@ The setup consisted of a mounting bracket connected on top of a treadmill, Figur
 Figure 8 shows pictures of the assembled design and the test setup in practice. 
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-<img src="{{ site.baseurl }}/assets/images/slip_angle_sensor/test_setup_2.png" alt="Image 1" style="width: 75%; align: middle;" >
+<img src="{{ site.baseurl }}/assets/images/slip_angle_sensor/test_setup_2.png" alt="Image 1" style="width: 100%; align: middle;" >
 </div>
 <p style="text-align: center;">Figure 8: Assembled design and test setup.</p>
 

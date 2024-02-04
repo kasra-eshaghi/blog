@@ -1,8 +1,13 @@
 ---
-title: "Main page"
+layout: single
+classes: wide
+author_profile: true
+title: "Hey! Welcome!"
+header:
+  image: /assets/images/headers/test_header.png
+  image_description: "A description of the image"
 ---
-what
+Thanks for stopping by.
+I’m Kasra, a mechanical engineer, a roboticist, and an adventurer. My research background is in the development of motion planning for robotic swarms with sensing limitations, with a side of hardware development. During the day, I like to think about the world's most complex problems that can be solved through automation. At night, I dream about the mountains I want to climb, the lakes I want to paddle, and the books I want to read.
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
-
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+I'm on the lookout for a job that lets me turn my dreams into reality. Let's connect and make a meaninful impact together!

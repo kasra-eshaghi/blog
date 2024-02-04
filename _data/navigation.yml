@@ -5,3 +5,22 @@ main:
     url: /software/
   - title: "About"
     url: /about/
+    
+    
+projects-sidebar:
+  - title: "Hardware"
+    children:
+      - title: "mROBerTO 2.0"
+        url: /hardware/mroberto-2
+      - title: "Slip-Angle Sensor"
+        url: /hardware/slip-angle-sensor
+  - title: "Software"
+    children:
+      - title: "Collaborative-Motion Control"
+        url: /software/collaborative-motion-control
+      - title: "Constrained-Motion Planning"
+        url: /software/constrained-motion-planning
+      - title: "Improvement Prediction"
+        url: /software/improvement-prediction
+      - title: "Amazon Product Rating"
+        url: /software/amazon-product-rating

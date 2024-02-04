@@ -1,5 +1,6 @@
 ---
 title: "Collaborative-Motion Control Strategies for Robotic Swarms"
+excerpt: "In this project, I worked on the development of motion control strategies for robotic swarms that rely on collaborating with each other to compensate for their individual sensing limitations."
 ---
 <style>
 p {
@@ -20,7 +21,7 @@ The inchworm-inspired strategy seeks to address the sensing limitations of the s
 
 The inchworm strategy is illustrated through Video 1 below for a swarm of six robots that moves to its destination three robots at a time. 
 <div style="display: flex; justify-content: center;">
-	<video width="300" controls>
+	<video width="75%" controls>
 	  <source src="{{ site.baseurl }}/assets/images/files_collaborative_motion/inchworm_1.mp4" type="video/mp4">
 	  Sorry! Your browser does not support the video tag.
 	</video>
@@ -30,7 +31,7 @@ The inchworm strategy is illustrated through Video 1 below for a swarm of six ro
 Video 2 illustrates a swarm of ten robots that follow a sinusoidal path using the inchworm-inspired strategy. One may note that the swarm eventually diverges from its desired path, though this would occur at a slower rate than if anchors were not used.
 
 <div style="display: flex; justify-content: center;">
-	<video width="700" controls>
+	<video width="100%" controls>
 	  <source src="{{ site.baseurl }}/assets/images/files_collaborative_motion/inchworm_2.mp4" type="video/mp4">
 	  Sorry! Your browser does not support the video tag.
 	</video>
@@ -43,12 +44,12 @@ A key variable of the inchworm-inspired strategy is the selection of the number 
 In this regard, a nested optimization algorithm was developed to optimize the number and choice anchor robots, Figure 1. The outer optimization loop seeks the optimal number of anchor robots using a simple (single, discrete-variabel) search engine. The inner optimization loop, in turn, seeks the optimal choice of anchor robots for a specific number of anchors considered. The combinatoric nature of anchor-choice selection requires the adoption of a suitable search engine, such as a variation of the Genetic Algorithm. Furthermore, optimization is achieved through a simulation-based approach, where the motion of the swarm for an anchor choice is simulated numerous times, and the expected localization error calculated.
 <div style="display: flex; justify-content: center;">
 	<figure>
-	  <img src="{{ site.baseurl }}/assets/images/files_collaborative_motion/inchworm_nested_optimization.png" alt="Nature Image" style="height: 500px; width: auto;">
+	  <img src="{{ site.baseurl }}/assets/images/files_collaborative_motion/inchworm_nested_optimization.png" alt="Nature Image" style="width: 100%;">
 	</figure>
 </div>
 <p style="margin-top: 0px; text-align: center;"> Figure 1: Anchor optimization algorithm.</p>
 
-## Reference
+## Publication
 This work was published in:
 <p style="padding-left: 40px;"> 
 	K. Eshaghi, Z. Kashino, H. J. Yoon, G. Nejat, and B. Benhabib, “<i>An inchworm-inspired motion strategy for robotic swarms</i>,” Robotica, vol. 39, no. 12, pp. 2283–2305, Apr. 2021. 
@@ -61,7 +62,7 @@ The tether-based strategy seeks to address the accumulation of localization and 
 The tether-based strategy is illustrated through Video 3 below for a swarm of six robots, equipped with a secondary team of five tether robots. The swarm moves to its destination using the inchworm-inspired strategy, while maintaining connectivity to a landmark through the wireless tether. Upon arrival, sensor measurements to the landmark are obtained and used to accurately localize the swarm and corrects its position.
 
 <div style="display: flex; justify-content: center;">
-	<video width="560" height="315" controls>
+	<video width="100%" controls>
 	  <source src="{{ site.baseurl }}/assets/images/files_collaborative_motion/tether_1.mp4" type="video/mp4">
 	  Sorry! Your browser does not support the video tag.
 	</video>
@@ -71,7 +72,7 @@ The tether-based strategy is illustrated through Video 3 below for a swarm of si
 Video 4 below illustrates a swarm of ten robots, equipped with a secondary team of fifteen tether robots, that follow a sinusoidal path using the tether-based strategy. One may note that the swarm may change its connectivity from one landmark to another during its motion. By maintaining connectivity to the environment through the tether, the swarm can compensate for accumulated localization errors and execute corrective motion commands.
 
 <div style="display: flex; justify-content: center;">
-	<video width="560" height="315" controls>
+	<video width="100%" controls>
 	  <source src="{{ site.baseurl }}/assets/images/files_collaborative_motion/tether_2.mp4" type="video/mp4">
 	  Sorry! Your browser does not support the video tag.
 	</video>
@@ -91,7 +92,7 @@ The motion of the tether robots is planned to through three sequential steps, Fi
 </div>
 <p style="margin-top: 0px; text-align: center;"> Figure 2: Tether optimization.</p>
 
-## Reference
+## Publication
 This work was published in:
 <p style="padding-left: 40px;"> 
 	K. Eshaghi, A. Rogers, G. Nejat, and B. Benhabib, “<i>losed-loop motion control of robotic swarms – A tether-based strategy</i>,” IEEE Trans. Robot., vol. 38, no. 6, pp. 3564-3581, Dec. 2022.

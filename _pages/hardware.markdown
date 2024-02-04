@@ -20,4 +20,7 @@ Below are some of the fun hardware projects I've worked on in the past. Though, 
       {{ project.title }}
     </a>
   </h2>
+   
+  <p>{{ project.excerpt }}</p>
+
 {% endfor %}

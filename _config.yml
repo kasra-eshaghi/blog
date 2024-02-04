@@ -13,7 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: "Kasra Eshaghi"
+subtitle: "The man, the myth, the legend"
 repository: kasra-eshaghi/blog
 baseurl: /blog
 email:
@@ -29,28 +30,16 @@ search: true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+excerpt_separator: "<!-- more -->"
 # Outputting
 permalink: "/:title.html" #/:categories/:title/
-paginate: 2 # amount of posts to show
+paginate: 0 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -60,34 +49,22 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  # name   : ""
+  avatar : "/assets/images/headers/self_1.jpg"
+  # bio    : "Mechanical engineer, roboticists, adventurer!"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Email"
+      icon: "fa-fw fas fa-envelope"
+      url: "mailto:kasra.eshaghi.74@gmail.com"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/kasra-eshaghi"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/kasra-eshaghi"
+    - label: "Share"
+      icon: "fa-fw fas fa-share"
+      url: "https://github.com/kasra-eshaghi"
 
 defaults:
   # _posts
@@ -118,6 +95,10 @@ defaults:
       toc: true
       toc_sticky: true
       toc_label: "Contents"
+      sidebar:
+          title: "Projects"
+          nav: projects-sidebar
+      read_time: true
   - scope:
       path: "_software"
       type: software
@@ -126,21 +107,25 @@ defaults:
       toc: true
       toc_sticky: true
       toc_label: "Contents"
-            
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+      sidebar:
+          title: "Projects"
+          nav: projects-sidebar
+      read_time: true
 
 
 collections:
     hardware:
         output: true
         permalink: /:collection/:name
+        order:
+          - mroberto-2.markdown
+          - slip_angle_sensor.markdown
     
     software:
         output: true
         permalink: /:collection/:name
+        order:
+          - collaborative-motion-control.markdown
+          - constrained-motion-planning.markdown
+          - improvement_prediction.markdown
+          - amazon_product_rating.markdown

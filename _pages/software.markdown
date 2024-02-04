@@ -26,5 +26,8 @@ The software projects below were mostly completed during my PhD. Anything relate
       {{ project.title }}
     </a>
   </h2>
+  
+  <p>{{ project.excerpt }}</p>
+  
 {% endfor %}
 

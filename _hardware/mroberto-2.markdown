@@ -1,12 +1,12 @@
 ---
 title: "mROBerTO 2.0: A Millirobot for Swarm Studies"
+excerpt: "Swarm algorithms are typically verified using millimeter-scale robots. I worked on the development of one such millirobot in this project."
 ---
 <style>
 p {
   text-align: justify;
 }
 </style>
-
 
 # Introduction
 Swarm robotic systems typically consist of simple and small-scale robots that collaborate with each other to compensate for their individual limitations. In research, such systems are typically verified using millimeter-scale robots (called millirobots) which allow for the deployment of large-scale swarms in constrained laboratory settings. I had the opportunity to develop one such millirobot during my PhD, where, in addition to robot design, I worked on developing motion-control and planning methodologies for swarms, as detailed <a href="{{ site.baseurl }}/software/collaborative-motion-control">here</a> and <a href="{{ site.baseurl }}/software/constrained-motion-planning">here</a>.
@@ -44,7 +44,7 @@ Finally, the proximity sensing module is equipped with a time-of-flight (ToF) se
 mROBerTO 2.0 and mROBerTO 1.0 were used in various experiments throughout my PhD. Videos of two such experiments for chain formation and motion control are shown in Video 1 and Video 2, respectively.
 
 <div style="display: flex; justify-content: center;">
-	<video width="560" controls>
+	<video width="100%" controls>
 	  <source src="{{ site.baseurl }}/assets/images/mroberto_2/Chain_Formation_Experiments.mp4" type="video/mp4">
 	  Sorry! Your browser does not support the video tag.
 	</video>
@@ -52,7 +52,7 @@ mROBerTO 2.0 and mROBerTO 1.0 were used in various experiments throughout my PhD
 <p style="margin-top: 10px; text-align: center;">Video 1: Chain formation.</p>
 
 <div style="display: flex; justify-content: center;">
-	<video width="560" controls>
+	<video width="100%" controls>
 	  <source src="{{ site.baseurl }}/assets/images/mroberto_2/Tether_Based_Motion_Video.mp4" type="video/mp4">
 	  Sorry! Your browser does not support the video tag.
 	</video>

@@ -1,5 +1,6 @@
 ---
 title: "Constrained Swarm Motion Planning"
+excerpt: "Collaborative-motion control strategies impose constraints on the motion of the swarm. In this project, I developed a motion planning methodology that considers these constraints while planning the swarm's motion."
 ---
 <style>
 p {
@@ -27,7 +28,7 @@ The interdependence of these mechanisms requires the methodology to seek their o
 
 <div style="display: flex; justify-content: center;">
 	<figure>
-	  <img src="{{ site.baseurl }}/assets/images/files_constrained_planning/constrained_planning_method.jpg" alt="Nature Image" style="width: 300px; height: auto;">
+	  <img src="{{ site.baseurl }}/assets/images/files_constrained_planning/constrained_planning_method.jpg" alt="Nature Image" style="width: 100%">
 	</figure>
 </div>
 <p style="margin-top: 10px; text-align: center;"> Figure 1: Constrained planning methodology </p>
@@ -41,7 +42,7 @@ The task allocation stage focuses on the optimal grouping of worker robots into 
 Figure 2 below illustrates a candidate task allocation solution generated for a swarm mission with three tasks.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-<img src="{{ site.baseurl }}/assets/images/files_constrained_planning/task_allocation.jpg" alt="Image 1" style="width: 50%; align: middle;" >
+<img src="{{ site.baseurl }}/assets/images/files_constrained_planning/task_allocation.jpg" alt="Image 1" style="width: 75%; align: middle;" >
 </div>
 <p style="text-align: center;">Figure 2: Task allocation solution.</p>
 
@@ -52,7 +53,7 @@ Herein, this goal is achieved by allowing the temporary/intermediate relocation 
 Figure 3 below illustrates a candidate worker robot path planning solution generated for the task allocation solution in Figure 2.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-<img src="{{ site.baseurl }}/assets/images/files_constrained_planning/worker_paths.jpg" alt="Image 1" style="width: 50%; align: middle;" >
+<img src="{{ site.baseurl }}/assets/images/files_constrained_planning/worker_paths.jpg" alt="Image 1" style="width: 75%; align: middle;" >
 </div>
 <p style="text-align: center;">Figure 3: Worker robot path planning solution.</p>
 
@@ -65,7 +66,7 @@ Movement allocation is synonymous to task allocation. Namely, this mechanism aim
 Figure 4 illustrates candidate movement concurrency and movement allocation solution generated for the worker robot path planning solution in Figure 3.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-<img src="{{ site.baseurl }}/assets/images/files_constrained_planning/movement_conc_alloc.jpg" alt="Image 1" style="width: 50%; align: middle;" >
+<img src="{{ site.baseurl }}/assets/images/files_constrained_planning/movement_conc_alloc.jpg" alt="Image 1" style="width: 75%; align: middle;" >
 </div>
 <p style="text-align: center;">Figure 3: Worker robot path planning solution.</p>
 
@@ -74,7 +75,7 @@ Video 1 illustrates the execution of a 5-task mission with a 50-robot swarm, wit
 Video 2 illustrates the execution of a 10-task mission with a 100-robot swarm.
 
 <div style="display: flex; justify-content: center;">
-	<video width="560" height="315" controls>
+	<video width="100%" controls>
 	  <source src="{{ site.baseurl }}/assets/images/files_constrained_planning/simple_example_video.mp4" type="video/mp4">
 	  Sorry! Your browser does not support the video tag.
 	</video>
@@ -82,14 +83,14 @@ Video 2 illustrates the execution of a 10-task mission with a 100-robot swarm.
 <p style="margin-top: 10px; text-align: center;">Video 1: Multi-task mission execution with 50-robot swarm.</p>
 
 <div style="display: flex; justify-content: center;">
-	<video width="560" height="315" controls>
+	<video width="100%" controls>
 	  <source src="{{ site.baseurl }}/assets/images/files_constrained_planning/complex_example_video.mp4" type="video/mp4">
 	  Sorry! Your browser does not support the video tag.
 	</video>
 </div>
 <p style="margin-top: 10px; text-align: center;">Video 2: Multi-task mission execution with 100-robot swarm</p>
 
-# Reference
+# Publication
 This work was published in:
 <p style="padding-left: 40px;"> 
 	K. Eshaghi, G. Nejat, and B. Benhabib, “<i>A concurrent mission-planning methodology for robotic swarms using collaborative motion-control strategies</i>,” J. Int. Rob. Syst., vol. 108, no. 2, pp. 1-26, Apr. 2023.

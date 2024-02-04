@@ -1,5 +1,6 @@
 ---
-title: "Rating products on Amazon"
+title: "Rating Products for Amazon"
+excerpt: "In this project, I developed of a recommendor system(ish) for Amazon."
 ---
 <style>
 	table {
@@ -138,7 +139,7 @@ The developed model is shown in Figure 4 below.  In this model, the summary and 
 
 The output of the LSTM layer is, then concatenated with one-hot encoded product categories and normalized review times. These are fed into two successive dense layers to estimate the product ratings.
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-<img src="{{ site.baseurl }}/assets/images/amazon_recommendation/amazon_comp_model.png" alt="Image 1" style="width: 50%; align: middle;" >
+<img src="{{ site.baseurl }}/assets/images/amazon_recommendation/amazon_comp_model.png" alt="Image 1" style="width: 100%; align: middle;" >
 </div>
 <p style="text-align: center;">Figure 4: Product rating model.</p>
 
