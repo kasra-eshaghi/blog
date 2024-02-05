@@ -11,7 +11,7 @@ p {
 # Introduction
 Swarm robotic systems, typically consisting of high numbers of collaborative robots, may be burdened with onboard sensing limitations due to hardware miniaturization. Such sensing limitations present a challenge for sensing-based robotic tasks, such as localization, perception, and mapping.
 
-The work completed in this project specifically dealt with swarms that are only equipped with short-range proximity sensors. Members of such swarms are unable to to accurately localize individually and, thus, control their motion. This results in the accumulation of motion errors, and the divergence of the swarm from its desired motion.
+The work completed in this project specifically dealt with swarms that are only equipped with short-range proximity sensors. Members of such swarms are unable to accurately localize individually and, thus, control their motion. This results in the accumulation of motion errors, and the divergence of the swarm from its desired motion.
 
 Herein, these sensing limitations are addressed by leveraging the collaborative nature of robotic swarms. Namely, through the development of collaborative-motion control strategies that allow the robots to simultaneously execute their desired motion while helping each other compensate for their individual sensing limitations. Two such strategies were developed: the inchworm-inspired and tether-based strategies, as described below.
 
