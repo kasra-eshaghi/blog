@@ -1,19 +1,13 @@
 main:
-  - title: "Hardware"
-    url: /hardware/
   - title: "Software"
     url: /software/
+  - title: "Hardware"
+    url: /hardware/
   - title: "About"
     url: /about/
     
     
 projects-sidebar:
-  - title: "Hardware"
-    children:
-      - title: "mROBerTO 2.0"
-        url: /hardware/mroberto-2
-      - title: "Slip-Angle Sensor"
-        url: /hardware/slip-angle-sensor
   - title: "Software"
     children:
       - title: "Collaborative-Motion Control"
@@ -24,3 +18,9 @@ projects-sidebar:
         url: /software/improvement-prediction
       - title: "Amazon Product Rating"
         url: /software/amazon-product-rating
+  - title: "Hardware"
+    children:
+      - title: "mROBerTO 2.0"
+        url: /hardware/mroberto-2
+      - title: "Slip-Angle Sensor"
+        url: /hardware/slip-angle-sensor
