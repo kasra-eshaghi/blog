@@ -117,15 +117,6 @@ collections:
     hardware:
         output: true
         permalink: /:collection/:name
-        order:
-          - mroberto-2.markdown
-          - slip_angle_sensor.markdown
-    
     software:
         output: true
         permalink: /:collection/:name
-        order:
-          - collaborative-motion-control.markdown
-          - constrained-motion-planning.markdown
-          - improvement_prediction.markdown
-          - amazon_product_rating.markdown

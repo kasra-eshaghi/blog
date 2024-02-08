@@ -9,6 +9,12 @@ header:
 atom_feed:
   hide: true
 ---
+<style>
+p {
+  text-align: justify;
+}
+</style>
+
 Thanks for stopping by.
 I’m Kasra, a mechanical engineer, a roboticist, and an adventurer. My research background is in the development of collaborative-motion control and planning methodologies for robotic swarms with sensing limitations, with a side of hardware development. 
 

@@ -5,22 +5,26 @@ main:
     url: /hardware/
   - title: "About"
     url: /about/
+  - title: "Adventures"
+    url: /adventures/
     
     
 projects-sidebar:
   - title: "Software"
     children:
       - title: "Collaborative-Motion Control"
-        url: /software/collaborative-motion-control
+        url: /software/1-collaborative-motion-control
       - title: "Constrained-Motion Planning"
-        url: /software/constrained-motion-planning
+        url: /software/2-constrained-motion-planning
+      - title: "Swarm localization"
+        url: /software/3-swarm-localization
       - title: "Improvement Prediction"
-        url: /software/improvement-prediction
+        url: /software/4-improvement-prediction
       - title: "Amazon Product Rating"
-        url: /software/amazon-product-rating
+        url: /software/5-amazon-product-rating
   - title: "Hardware"
     children:
       - title: "mROBerTO 2.0"
-        url: /hardware/mroberto-2
+        url: /hardware/1-mroberto-2
       - title: "Slip-Angle Sensor"
-        url: /hardware/slip-angle-sensor
+        url: /hardware/2-slip-angle-sensor
