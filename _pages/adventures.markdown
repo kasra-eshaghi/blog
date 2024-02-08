@@ -75,9 +75,9 @@ p {
 }
 </style>
 
-My adventures have so far consisted of back-country canoe camping and backpacking in Canada's beautiful wilderness. Checkout some of my favorite pictures of these adventures below!
+My adventures, so far, have consisted of back-country canoe camping and backpacking in Canada's beautiful wilderness. Check out some of my favorite pictures of these adventures below!
 
-I also consider reading an adventure as it allows me to explore ideas, places, and historical events that I would otherwise not be able to experience. Checkout some of my favorite books below! 
+I also consider reading to be an adventure as it allows me to explore ideas, places, and historical events that I would otherwise not be able to experience. Check out some of my favorite books below! 
 
 # Favorite Pictures
 {% include gallery caption="Camping adventures" %}

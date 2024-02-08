@@ -1,6 +1,6 @@
 ---
 title: "Rating Products for Amazon"
-excerpt: "In this project, I developed of a recommender system(ish) for Amazon."
+excerpt: "In this project, I developed a recommender system(ish) for Amazon."
 ---
 <style>
 	table {

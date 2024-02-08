@@ -11,7 +11,7 @@ p {
 
 A good engineer knows hardware better than software. That's because hardware can work without software, but software is nothing without hardware! 
 
-Below are some of the fun hardware projects I've worked on in the past. Though, I admit, none of them would work without software. 
+Below are some of the interesting hardware projects I've worked on in the past. Though, I admit, none of them would work without software. 
 
 
 {% for project in site.hardware %}

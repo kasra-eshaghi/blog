@@ -9,7 +9,7 @@ p {
 }
 </style>
 
-The software projects below were mostly completed during my PhD, where I worked on leveraging inter-robot collaboration to address the sensing limitations of individual robots in a swarm. This research was completed at the <a href="https://cimlab.mie.utoronto.ca/" target="_blank">Computer Integrated Manufacturing Lab</a> and the <a href="http://asblab.mie.utoronto.ca/" target="_blank">Autonomous Systems and Biomechatronics Lab</a>, both at the University of Toronto.
+The software projects below were mostly completed during my PhD, during which I worked on leveraging inter-robot collaboration to address the sensing limitations of individual robots in a swarm. This research was completed at the <a href="https://cimlab.mie.utoronto.ca/" target="_blank">Computer Integrated Manufacturing Lab</a> and the <a href="http://asblab.mie.utoronto.ca/" target="_blank">Autonomous Systems and Biomechatronics Lab</a>, both at the University of Toronto.
 
 {% for project in site.software %}
   <h2>
