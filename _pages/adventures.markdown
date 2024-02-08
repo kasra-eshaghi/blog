@@ -7,24 +7,24 @@ toc: true
 toc_sticky: true
 toc_label: "Contents"
 gallery:
-  - url: /assets/images/adventures-camping/algonquin-1.jpg
-    image_path: /assets/images/adventures-camping/algonquin-1.jpg
+  - url: /assets/images/adventures-camping/algonquin-1.JPG
+    image_path: /assets/images/adventures-camping/algonquin-1.JPG
     alt: "placeholder image 1"
     title: "Algonquin PP"
-  - url: /assets/images/adventures-camping/algonquin-2.jpg
-    image_path: /assets/images/adventures-camping/algonquin-2.jpg
+  - url: /assets/images/adventures-camping/algonquin-2.JPG
+    image_path: /assets/images/adventures-camping/algonquin-2.JPG
     alt: "placeholder image 1"
     title: "Algonquin PP"
-  - url: /assets/images/adventures-camping/algonquin-3.jpg
-    image_path: /assets/images/adventures-camping/algonquin-3.jpg
+  - url: /assets/images/adventures-camping/algonquin-3.JPG
+    image_path: /assets/images/adventures-camping/algonquin-3.JPG
     alt: "placeholder image 1"
     title: "Algonquin PP"
   - url: /assets/images/adventures-camping/killarney-1.jpg
     image_path: /assets/images/adventures-camping/killarney-1.jpg
     alt: "placeholder image 1"
     title: "Killarney PP"
-  - url: /assets/images/adventures-camping/algonquin-4.jpg
-    image_path: /assets/images/adventures-camping/algonquin-4.jpg
+  - url: /assets/images/adventures-camping/algonquin-4.JPG
+    image_path: /assets/images/adventures-camping/algonquin-4.JPG
     alt: "placeholder image 1"
     title: "Algonquin PP"
   - url: /assets/images/adventures-camping/killarney-2.jpg
@@ -75,9 +75,9 @@ p {
 }
 </style>
 
-My "adventures" have so far consisted of back-country canoe camping / backpacking in Canada's beautiful wilderness. Checkout some of my favorite pictures of these adventures below!
+My adventures have so far consisted of back-country canoe camping and backpacking in Canada's beautiful wilderness. Checkout some of my favorite pictures of these adventures below!
 
-I also consider reading an "adventure" as it allows me to explore ideas, places, and historical events that I would otherwise not be able to experience. Checkout some of my most recently read books below! 
+I also consider reading an adventure as it allows me to explore ideas, places, and historical events that I would otherwise not be able to experience. Checkout some of my favorite books below! 
 
 # Favorite Pictures
 {% include gallery caption="Camping adventures" %}
